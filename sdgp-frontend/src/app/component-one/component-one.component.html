@@ -1,0 +1,15 @@
+<app-navbar></app-navbar>
+
+<div class="boxone">
+    <div>
+        <h2>Upload product infomation</h2>
+        <p>choose .csv file to add previous product information </p>
+        
+        <input  type="file" #fileImportInput name="File Upload" id="txtFileUpload" (change)="fileChangeListener($event)" accept=".csv"/>
+        <input type = "button" name="submitcsv" value="Submit" (click) ="submit()">  
+
+      </div>
+
+</div>
+
+
